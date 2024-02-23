@@ -1,0 +1,325 @@
+
+/* .carousel-item{
+  margin: auto;
+  width: 70rem;
+} */
+.carousel-item img{
+  margin: auto;
+  display: block;
+  width: 60rem !important;
+  height: 40rem !important;
+  display: block;
+}
+
+header {
+  /* background-color: #333; */
+  /* color: #fff; */
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  /* header { */
+    /* padding: 10px; /Adjust padding for smaller screens */
+  /* } */
+  h1{
+    color: white;
+  }
+  .availble{
+    font-size: 2rem !important;
+  }
+  p{
+    font-size: 1.5rem !important; 
+  }
+  /* img{
+    width: 18rem !important;
+    height: 18rem !important;
+  } */
+  .carousel-item img{
+    margin: auto;
+    display: block;
+    width: 60rem !important;
+    height: 40rem !important;
+    display:none;
+  }
+  .carousel-item img {
+    height: 100%;
+    width: auto;
+    height: 13rem !important;
+    width: 21rem !important;
+    margin: auto;
+    display: block;
+}
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #a83e3e;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #000000;
+}
+
+p {
+  color: #010101;
+  line-height: 1.6;
+  font-size: 1.3rem;
+}
+
+.image {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%;
+}
+img{
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  .setHeight{
+    height: 20rem !important;
+    width: 25rem !important;
+  }
+ 
+}
+
+
+/* ================Card Container ==================================*/
+
+
+
+
+
+
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.carousel-item img {
+  height: 400px; /* Adjust the height of the carousel images */
+  object-fit: cover;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Hide default carousel indicators */
+.carousel-indicators {
+  display: none;
+}
+
+
+.samaiksha-container {
+  display: block;
+  /* width: 135rem; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  margin: 20px;
+}
+
+.samaiksha-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  /* width: calc(50% - 20px); */
+  padding: 20px;
+}
+
+.upayogakarta-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.upayogakarta-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.upayogakarta-naam {
+  margin: 0;
+  font-size: 18px;
+  width: 7rem;
+}
+
+.upayogakarta-comment {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+  /* .samaiksha-card {
+    width: 100%;
+  } */
+
+  .upayogakarta-photo {
+    width: 40px !important;
+    height: 40px !important;
+    margin-right: 10px !important;
+    border-radius: 30rem !important;
+  }
+
+  .upayogakarta-naam {
+    font-size: 16px;
+  }
+
+  .upayogakarta-comment {
+    font-size: 18px !important;
+  }
+  .samaiksha-card {
+    background-color: #f9f9f9 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+    margin-bottom: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    /* justify-content: space-evenly !important; */
+    /* width: calc(50% - 20px); */
+    padding: 20px !important;
+  }
+  .upayogakarta-time{
+    font-size: 10px !important;
+    margin-top: 10px !important;
+    margin-left: 20px !important;
+    width: 3rem !important;
+  }
+  .feedback{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .video-container{
+    width: 30rem !important;
+    height: 18rem !important;
+    margin: 10px 0px;
+  }
+ 
+  
+  .btnSticky{
+    position: sticky;
+    right: 83.5rem;
+    top: 40rem;
+    /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;     */
+    color: rgb(0, 0, 0);
+    padding: 20px 45px;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  .row1{
+    z-index: -1;
+  }
+}
+
+.upayogakarta-time{
+  font-size: 10px;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 5rem;
+}
+.btnSticky{
+  position: sticky;
+  right: 83.5rem;
+  top: 40rem;
+  background-color: #007bff;;
+  color: white;
+  padding: 20px 45px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+/* .setHeight{
+  height: 48rem !important;
+  width: 72rem !important;
+} */
+/* .slide {
+  height: 50rem !important;
+} */
+
+.video-container {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+  /* Adjust the height as needed */
+}
+
+/* ================= Footer ====================== */
